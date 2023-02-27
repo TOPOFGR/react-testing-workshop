@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Mocked/> should render without crashing 1`] = `
+<DocumentFragment>
+  <div>
+    Mocked component
+    <form>
+      <input
+        type="text"
+      />
+      <button>
+        Save
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
