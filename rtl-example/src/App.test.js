@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import App from "./App";
 
-jest.mock("./components/Mocked");
+// jest.mock("./components/Mocked");
 
 describe("App", () => {
   test("renders without crashing", () => {

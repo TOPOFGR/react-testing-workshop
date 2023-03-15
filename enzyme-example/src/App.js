@@ -1,7 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Mocked from './components/Mocked';
 
 function App() {
+
+  const onSubmit = () => {
+    console.log('onSubmit');
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +23,7 @@ function App() {
         >
           Learn React
         </a>
+        <Mocked onSubmit={onSubmit}/>
       </header>
     </div>
   );
